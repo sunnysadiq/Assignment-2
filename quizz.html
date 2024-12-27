@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Quiz</title>
+</head>
+<body>
+        <h2>Student Info</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+
+            <h3>HTML</h3>
+            <fieldset>
+            <p><strong>Question #1</strong></p>
+            <p>The legend element represents a caption for the content of its parent fieldset element</p>
+            <input type="radio" id="q1-true" name="q1" value="true">
+            <label for="q1-true">True</label><br>
+            <input type="radio" id="q1-false" name="q1" value="false">
+            <label for="q1-false">False</label><br><br>
+
+            <p><strong>Question #2</strong></p>
+            <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+            <input type="radio" id="q2-true" name="q2" value="true">
+            <label for="q2-true">True</label><br>
+            <input type="radio" id="q2-false" name="q2" value="false">
+            <label for="q2-false">False</label><br><br>
+            </fieldset><br>
+
+            <h3>CSS</h3>
+            <fieldset>
+            <p>Can the CSS margin property accept negative values?</p>
+            <select name="margin" id="margin">
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
+            <br><label for="questions">Do you have any questions:</label><br>
+            <textarea id="questions" name="questions"></textarea><br>
+            </fieldset><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </main>
+</body>
+</html>
